@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.10.5 on win32)" generated="20221229 12:15:04.895" rpa="false" schemaversion="3">
+<suite id="s1" name="Frames" source="c:\Users\HP\VS CODE\Robotframework\TestCase\Frames.robot">
+<test id="s1-t1" name="Handlening_frames" line="12">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221229 12:15:05.569" level="INFO">Opening browser 'chrome' to base url 'https://www.selenium.dev/selenium/docs/api/java/index.html?overview-summary.html'.</msg>
+<status status="PASS" starttime="20221229 12:15:05.567" endtime="20221229 12:15:14.425"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221229 12:15:14.436" endtime="20221229 12:15:14.840"/>
+</kw>
+<kw name="frames" library="framesoperation">
+<kw name="Select Frame" library="SeleniumLibrary">
+<arg>packageListFrame</arg>
+<doc>Sets frame identified by ``locator`` as the current frame.</doc>
+<msg timestamp="20221229 12:15:14.848" level="INFO">Selecting frame 'packageListFrame'.</msg>
+<status status="PASS" starttime="20221229 12:15:14.843" endtime="20221229 12:15:15.048"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>org.openqa.selenium</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20221229 12:15:15.050" level="INFO">Clicking link 'org.openqa.selenium'.</msg>
+<status status="PASS" starttime="20221229 12:15:15.049" endtime="20221229 12:15:15.564"/>
+</kw>
+<kw name="Unselect Frame" library="SeleniumLibrary">
+<doc>Sets the main frame as the current frame.</doc>
+<status status="PASS" starttime="20221229 12:15:15.566" endtime="20221229 12:15:15.587"/>
+</kw>
+<kw name="Select Frame" library="SeleniumLibrary">
+<arg>packageFrame</arg>
+<doc>Sets frame identified by ``locator`` as the current frame.</doc>
+<msg timestamp="20221229 12:15:15.589" level="INFO">Selecting frame 'packageFrame'.</msg>
+<status status="PASS" starttime="20221229 12:15:15.587" endtime="20221229 12:15:16.153"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>Alert</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20221229 12:15:16.155" level="INFO">Clicking link 'Alert'.</msg>
+<status status="PASS" starttime="20221229 12:15:16.154" endtime="20221229 12:15:16.428"/>
+</kw>
+<status status="PASS" starttime="20221229 12:15:14.842" endtime="20221229 12:15:16.433"/>
+</kw>
+<status status="PASS" starttime="20221229 12:15:05.560" endtime="20221229 12:15:16.458"/>
+</test>
+<status status="PASS" starttime="20221229 12:15:04.920" endtime="20221229 12:15:16.471"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Frames">Frames</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

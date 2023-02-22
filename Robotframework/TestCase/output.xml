@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.10.5 on win32)" generated="20221229 12:31:01.288" rpa="false" schemaversion="3">
+<suite id="s1" name="Frames" source="C:\Users\HP\VS CODE\Robotframework\TestCase\Frames.robot">
+<test id="s1-t1" name="Handlening_frames" line="12">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221229 12:31:01.750" level="INFO">Opening browser 'chrome' to base url 'https://www.selenium.dev/selenium/docs/api/java/index.html?overview-summary.html'.</msg>
+<status status="PASS" starttime="20221229 12:31:01.748" endtime="20221229 12:31:08.009"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221229 12:31:08.010" endtime="20221229 12:31:08.340"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<arg>2seconds</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="PASS" starttime="20221229 12:31:08.350" endtime="20221229 12:31:08.361"/>
+</kw>
+<kw name="frames" library="framesoperation">
+<kw name="Select Frame" library="SeleniumLibrary">
+<arg>packageListFrame</arg>
+<doc>Sets frame identified by ``locator`` as the current frame.</doc>
+<msg timestamp="20221229 12:31:08.368" level="INFO">Selecting frame 'packageListFrame'.</msg>
+<status status="PASS" starttime="20221229 12:31:08.366" endtime="20221229 12:31:08.763"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>org.openqa.selenium</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20221229 12:31:08.765" level="INFO">Clicking link 'org.openqa.selenium'.</msg>
+<status status="PASS" starttime="20221229 12:31:08.764" endtime="20221229 12:31:08.968"/>
+</kw>
+<kw name="Unselect Frame" library="SeleniumLibrary">
+<doc>Sets the main frame as the current frame.</doc>
+<status status="PASS" starttime="20221229 12:31:08.969" endtime="20221229 12:31:08.976"/>
+</kw>
+<kw name="Select Frame" library="SeleniumLibrary">
+<arg>packageFrame</arg>
+<doc>Sets frame identified by ``locator`` as the current frame.</doc>
+<msg timestamp="20221229 12:31:08.977" level="INFO">Selecting frame 'packageFrame'.</msg>
+<status status="PASS" starttime="20221229 12:31:08.976" endtime="20221229 12:31:09.398"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>Alert</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20221229 12:31:09.399" level="INFO">Clicking link 'Alert'.</msg>
+<status status="PASS" starttime="20221229 12:31:09.398" endtime="20221229 12:31:09.617"/>
+</kw>
+<kw name="Unselect Frame" library="SeleniumLibrary">
+<doc>Sets the main frame as the current frame.</doc>
+<status status="PASS" starttime="20221229 12:31:09.617" endtime="20221229 12:31:09.625"/>
+</kw>
+<kw name="Select Frame" library="SeleniumLibrary">
+<arg>classFrame</arg>
+<doc>Sets frame identified by ``locator`` as the current frame.</doc>
+<msg timestamp="20221229 12:31:09.630" level="INFO">Selecting frame 'classFrame'.</msg>
+<status status="PASS" starttime="20221229 12:31:09.625" endtime="20221229 12:31:10.048"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>Instance Methods</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20221229 12:31:10.051" level="INFO">Clicking link 'Instance Methods'.</msg>
+<status status="PASS" starttime="20221229 12:31:10.049" endtime="20221229 12:31:10.401"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>Abstract Methods</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20221229 12:31:10.402" level="INFO">Clicking link 'Abstract Methods'.</msg>
+<status status="PASS" starttime="20221229 12:31:10.401" endtime="20221229 12:31:10.598"/>
+</kw>
+<status status="PASS" starttime="20221229 12:31:08.365" endtime="20221229 12:31:10.599"/>
+</kw>
+<status status="PASS" starttime="20221229 12:31:01.747" endtime="20221229 12:31:10.600"/>
+</test>
+<status status="PASS" starttime="20221229 12:31:01.292" endtime="20221229 12:31:10.603"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Frames">Frames</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
